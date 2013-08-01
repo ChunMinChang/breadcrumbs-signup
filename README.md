@@ -73,19 +73,16 @@ $(document).ready(function(){
 
 ``` 
 
-1. slide-menu-class
-
-    this is the the class name of slide manu
-	
-2. slideshow-content-class
-3. breadcrumbs-menu-class
-4. breadcrumbs-menu-class-hover
-5. breadcrumbs-menu-class-active
-6. bottunLeftId
-7. bottunRightId
-8. bottunRight_first_slide_value
-9. bottunRight_last_slide_value
-10. functionName
+1. slide-menu-class : class name of slide manu
+2. slideshow-content-class : class name of slide content
+3. breadcrumbs-menu-class : class name of breadcrumbs menu
+4. breadcrumbs-menu-class-hover : class name  
+5. breadcrumbs-menu-class-active : class name
+6. bottunLeftId : left button's id
+7. bottunRightId : right button's id
+8. bottunRight_first_slide_value : the text value of right button shown at the first slide
+9. bottunRight_last_slide_value : the text value of right button shown at the last slide
+10. functionName : name of the function which is triggered when user finish this procedure
 
 
 
