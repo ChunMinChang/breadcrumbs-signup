@@ -74,7 +74,9 @@ $(document).ready(function(){
 ``` 
 
 1. slide-menu-class
+
     this is the the class name of slide manu
+	
 2. slideshow-content-class
 3. breadcrumbs-menu-class
 4. breadcrumbs-menu-class-hover
