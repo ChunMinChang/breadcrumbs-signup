@@ -1,0 +1,244 @@
+
+/*
+ * Amour CSS file
+ *
+ * This file is the css setting of amour
+ *
+ * Author 	: Chun-Min Chang
+ *
+ * Contact	: tangent7787@gmail.com
+ *
+ * Copyright @ All Rights Reserved
+ */
+ 
+
+/* Import Google fonts */
+@import url('http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Gloria+Hallelujah|Chelsea Market|Joti+One');
+ 
+
+/* Breadcrumb */
+
+.breadcrumbs{
+	overflow: hidden;
+	width: 100%;
+}
+
+.breadcrumbs-li{
+	float: left;
+	margin: 0 .5em 0 1em;
+	background: #ddd;
+	padding: .7em 1em;
+	float: left;
+	text-decoration: none;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+	position: relative;
+}
+
+.breadcrumbs-li::before{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-width: 1.5em 0 1.5em 1em;
+	border-style: solid;
+	border-color: #ddd #ddd #ddd transparent;
+	left: -1em;
+}
+
+.breadcrumbs-li::after{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-top: 1.5em solid transparent;
+	border-bottom: 1.5em solid transparent;
+	border-left: 1em solid #ddd;
+	right: -1em;
+}
+
+
+.breadcrumbs-li-hover{
+	font-weight:bold;
+	float: left;
+	margin: 0 .5em 0 1em;
+	background: transparent;
+	padding: .7em 1em;
+	float: left;
+	text-decoration: none;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+	position: relative;
+}
+
+.breadcrumbs-li-hover::before{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-width: 1.5em 0 1.5em 1em;
+	border-style: solid;
+	border-color: transparent transparent transparent transparent;
+	left: -1em;
+}
+
+.breadcrumbs-li-hover::after{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-top: 1.5em solid transparent;
+	border-bottom: 1.5em solid transparent;
+	border-left: 1em solid transparent;
+	right: -1em;
+}
+
+
+.breadcrumbs-li-active{
+	float: left;
+	margin: 0 .5em 0 1em;
+	background: #4499FF;
+	padding: .7em 1em;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+	position: relative;
+}
+
+.breadcrumbs-li-active::before{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-width: 1.5em 0 1.5em 1em;
+	border-style: solid;
+	border-color: #4499FF #4499FF #4499FF transparent;
+	left: -1em;
+}
+
+.breadcrumbs-li-active::after{
+	content: "";
+	position: absolute;
+	top: 50%; 
+	margin-top: -1.5em;   
+	border-top: 1.5em solid transparent;
+	border-bottom: 1.5em solid transparent;
+	border-left: 1em solid #4499FF;
+	right: -1em;
+}
+
+
+
+/* Slideshow */
+
+#slideshow-container {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+.slideshow-content {
+  float: left;
+  display:none;
+  position: relative;
+  left:0px;
+  top:0px;
+}
+
+.slideshow-menu-hover{
+	background:rgba(0,0,0,0.7);
+	color : white;
+	border-radius: 10px;
+}
+
+.slideshow-menu-active{
+	color:white;
+}
+
+.slideshow-button {
+	width:130px;
+	height: 40px;
+	font-size:25px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:20px;
+	font-family:'Joti One', cursive;
+}
+
+
+/* Sign Up */
+.signUpInputText {
+	font-size:20px;
+	width:300px;
+}
+
+#loginWithFB {
+	width:300px; 
+	height:60px;
+	background-repeat:no-repeat;
+	background-size:300px 60px;
+    display: block;
+	background-image: url(img/login_with_fb.png);
+}
+
+/* Home Page */
+
+.contentBox {
+	padding: 20px;
+	width: 960px;
+	height: 460px;
+	background:rgba(255,255,255,0.8);
+	color : black;
+	font-size:30px;
+	font-family:'Gloria Hallelujah', cursive;
+}
+
+
+/* Constant Setting */
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roundCorner {
+	border-radius: 20px;
+}
+
+.table{
+	display:table;
+    border-collapse: collapse;
+}
+
+.table-heading{
+	font-weight: bold;
+    display:table-row;
+    background-color:#C91622;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    font-family:georgia;
+    color:#fff;
+}
+
+.table-row{  
+    display:table-row;
+	text-align: left;
+}
+
+.table-col{ 
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.table-small-col{ 
+	display:table-cell;
+    border: 1px solid #CCC;
+	vertical-align:middle;
+	width: 50%;
+}
