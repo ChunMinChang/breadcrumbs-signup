@@ -59,7 +59,7 @@ function signUp(){
 }
 ```
 
-- Call the function 'initSlide' at first when loading html file
+- Call the function 'initSlide' when browser is loading html file
 
 ``` 
 
@@ -72,3 +72,18 @@ $(document).ready(function(){
 });
 
 ``` 
+
+1.slide-menu-class
+    this is the the class name of slide manu
+2.slideshow-content-class
+3.breadcrumbs-menu-class
+4.breadcrumbs-menu-class-hover
+5.breadcrumbs-menu-class-active
+6.bottunLeftId
+7.bottunRightId
+8.bottunRight_first_slide_value
+9.bottunRight_last_slide_value
+10.functionName
+
+
+
