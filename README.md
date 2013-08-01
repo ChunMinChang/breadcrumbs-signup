@@ -4,8 +4,8 @@ Sample code of breadcrumbs navigation for sign-up procedure
 
 ## Introduction
 
-This ..
-
+This is a sample code for sign-up with breadcrumbs navigation procedure.
+You can modify this sample to meet your needs.
 
 
 ## How to Use
