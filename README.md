@@ -18,7 +18,7 @@ To better understand how to use, please see following explain with the breadcrum
 
   ``` <li class="slide-menu-class breadcrumbs-menu-class"><a>Procedure1</a></li> ```
 
-  (In sample code, slide-menu-class = 'slideshow-menu' and breadcrumbs-menu-class = 'breadcrumbs-li')
+(In sample code, slide-menu-class = 'slideshow-menu' and breadcrumbs-menu-class = 'breadcrumbs-li')
 
 - In ```html <div id="slideshow-container">```, insert slide contents div with your own slideshow-content-class. 
 
