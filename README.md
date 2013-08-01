@@ -16,7 +16,7 @@ To better understand how to use, please see following explain with the breadcrum
 
 - In ```<li>``` tag, insert your slide-menu-class and breadcrumbs-menu-class
 
-  ``` <li class="slide-menu-class breadcrumbs-menu-class"><a>Privacy</a></li> ```
+  ``` <li class="slide-menu-class breadcrumbs-menu-class"><a>Procedure1</a></li> ```
 
   (In sample code, slide-menu-class = 'slideshow-menu' and breadcrumbs-menu-class = 'breadcrumbs-li')
 
