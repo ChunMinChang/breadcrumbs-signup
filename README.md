@@ -36,7 +36,7 @@ To better understand how to use, please see following explain with the breadcrum
 </div>
 ```
 
-    (In sample code, your-slideshow-content-here = 'slideshow-content')
+(In sample code, slideshow-content-class = 'slideshow-content')
 
 - Button Setting
     Set two buttons with two diffrerent ids
@@ -76,8 +76,8 @@ $(document).ready(function(){
 1. ***slide-menu-class*** : class name of slide manu
 2. ***slideshow-content-class*** : class name of slide content
 3. ***breadcrumbs-menu-class*** : class name of breadcrumbs menu
-4. ***breadcrumbs-menu-class-hover*** : name of the breadcrumbs menu class when mouser hover the breadcrumbs menu
-5. ***breadcrumbs-menu-class-active*** : name of the breadcrumbs menu class after mouser clicked the breadcrumbs menu
+4. ***breadcrumbs-menu-class-hover*** : class name of the breadcrumbs menu class when mouser hover the breadcrumbs menu
+5. ***breadcrumbs-menu-class-active*** : class name of the breadcrumbs menu class after mouser clicked the breadcrumbs menu
 6. ***bottunLeftId*** : left button's id
 7. ***bottunRightId*** : right button's id
 8. ***bottunRight_first_slide_value*** : the text value of right button shown at the first slide
