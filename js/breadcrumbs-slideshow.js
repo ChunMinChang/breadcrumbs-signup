@@ -134,7 +134,9 @@ function scrollSlide(currentSlide,nextSlide,dir){
 		$('#'+previousSlideBtn).css("visibility","hidden");
 	}else if( $('#'+previousSlideBtn).css("visibility")=="hidden" ){
 		$('#'+previousSlideBtn).css("visibility","visible");
-	}else if( nextSlide == $('li.'+menuClass).length-1 ){
+	}
+	
+	if( nextSlide == $('li.'+menuClass).length-1 ){
 		$('#'+nextSlideBtn).html(submitTxt);
 		$('#'+nextSlideBtn).unbind("click").click(window[submitFunction]);
 	}else if( (nextSlide !=0 )&&($('#'+nextSlideBtn).html()!=nextSlideBtnTxt) ){
